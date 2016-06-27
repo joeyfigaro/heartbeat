@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "babel-node ./node_modules/webpack/bin/webpack --watch --config webpack.config.js & nodemon --watch server.js --watch index.html server.js",
-    "build": "webpack --config webpack.config.babel.js",
+    "build": "webpack --config webpack.config.js",
     "lint": "./node_modules/.bin/eslint ."
   },
   "repository": {
