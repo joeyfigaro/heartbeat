@@ -9,8 +9,7 @@ module.exports = {
       'webpack-dev-server/client?http://localhost:5000',
       'webpack/hot/dev-server',
       './app/app'
-    ],
-    vendor: ['THREE']
+    ]
   },
   output: {
     path: path.join(__dirname, 'bundles'),
@@ -27,8 +26,7 @@ module.exports = {
   plugins: [
     new webpack.HotModuleReplacementPlugin(),
     new webpack.NoErrorsPlugin(),
-    new ProgressBarPlugin(),
-    new VendorChunkPlugin('vendor')
+    new ProgressBarPlugin()
     // new webpack.IgnorePlugin()
   ],
   module: {
