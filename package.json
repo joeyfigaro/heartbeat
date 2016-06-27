@@ -4,7 +4,7 @@
   "description": "Generated artwork from network packets.",
   "main": "index.js",
   "scripts": {
-    "start": "babel-node ./node_modules/webpack/bin/webpack --watch --config webpack.config.babel.js & nodemon --watch server.js --watch index.html server.js",
+    "start": "babel-node ./node_modules/webpack/bin/webpack --watch --config webpack.config.js & nodemon --watch server.js --watch index.html server.js",
     "build": "webpack --config webpack.config.babel.js",
     "lint": "./node_modules/.bin/eslint ."
   },
