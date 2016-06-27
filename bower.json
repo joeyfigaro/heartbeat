@@ -1,0 +1,29 @@
+{
+  "name": "heartbeat",
+  "description": "Generated artwork from network packets.",
+  "main": "index.js",
+  "authors": [
+    "Joey Figaro (http://joeyfigaro.com)"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "generative",
+    "art",
+    "heartbeat",
+    "network"
+  ],
+  "directory": "app/lib",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "three.js": "threejs#*",
+    "stats.js": "*"
+  }
+}
